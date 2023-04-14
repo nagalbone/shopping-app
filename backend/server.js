@@ -1,6 +1,13 @@
 const express = require('express');
 const Products = require('./data/products');
+const dotenv = require('dotenv');
+const connectDb = require('./config/config');
+dotenv.config();
+//connection to database
+connectDb();
 const app = express();
+
+
 
 app.get('/',(req,res)=>{
     res.send("<h1>WELCOM</h1>");
@@ -15,6 +22,7 @@ app.get('/products/:id',(req,res)=>{
     res.json(product); 
 });
 
-app.listen(8080,()=>{
-    console.log("Server runnign on port 8080");
+const PORT = 8080;
+app.listen(process.env.PORT || PORT,()=>{
+    console.log(`Server running in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`);
 })

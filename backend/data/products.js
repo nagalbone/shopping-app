@@ -1,6 +1,5 @@
 const products = [
     {
-        _id:'1',
         name:"trimmer for men",
         image:"/images/philips.jpg",
         description:"This Product Is for remove beard hair",
@@ -12,7 +11,6 @@ const products = [
         numreviews:12
     },
     {
-        _id:'2',
         name:"Computer Mouse",
         image:"/images/mouse.jpg",
         description:"ndbn fgfgsbfn",
@@ -24,7 +22,6 @@ const products = [
         numreviews:12
     },
     {
-        _id:'3',
         name:"Watch For men",
         image:"/images/watch.jpg",
         description:"ndbn fgfgsbfn",
@@ -36,7 +33,6 @@ const products = [
         numreviews:12
     },
     {
-        _id:'4',
         name:"JBL Speaker",
         image:"/images/jbl.jpg",
         description:"ndbn fgfgsbfn",
@@ -48,7 +44,6 @@ const products = [
         numreviews:12
     },
     {
-        _id:'5',
         name:"Samsung Mobile",
         image:"/images/mobile.jpg",
         description:"ndbn fgfgsbfn",
