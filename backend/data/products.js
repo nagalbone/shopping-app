@@ -8,7 +8,7 @@ const products = [
         price:1100,
         countInStock:10,
         rating:4.5,
-        numreviews:12
+        numReviews:12
     },
     {
         name:"Computer Mouse",
@@ -19,7 +19,7 @@ const products = [
         price:1100,
         countInStock:10,
         rating:4.5,
-        numreviews:12
+        numReviews:12
     },
     {
         name:"Watch For men",
@@ -30,7 +30,7 @@ const products = [
         price:1100,
         countInStock:10,
         rating:4.5,
-        numreviews:12
+        numReviews:12
     },
     {
         name:"JBL Speaker",
@@ -41,7 +41,7 @@ const products = [
         price:1100,
         countInStock:10,
         rating:4.5,
-        numreviews:12
+        numReviews:12
     },
     {
         name:"Samsung Mobile",
@@ -52,7 +52,7 @@ const products = [
         price:1100,
         countInStock:10,
         rating:4.5,
-        numreviews:12
+        numReviews:12
     }
 ]
 

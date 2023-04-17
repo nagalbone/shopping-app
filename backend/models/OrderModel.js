@@ -25,7 +25,7 @@ const orderSchema = mongoose.Schema({
                 required:true
             },
             Product:{
-                type:mongoose.Schema.type.ObjectId,
+                type:mongoose.Schema.Types.ObjectId,
                 required:true,
                 ref:'product'
             }
