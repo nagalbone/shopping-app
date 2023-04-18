@@ -7,6 +7,7 @@ const router = express.Router();
 router.get('/products',
 asynchandler (async (req,res)=>{
     const Products = await product.find({});
+    // throw new Error("eroro,mfk dmfnjdh");
     res.json(Products);
 })
 );
